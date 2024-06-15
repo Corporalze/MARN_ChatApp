@@ -3,6 +3,12 @@ import { MessageModule } from "./message/message.module";
 import { ParticipantModule } from "./participant/participant.module";
 import { ChatRoomModule } from "./chatRoom/chatRoom.module";
 import { UserModule } from "./user/user.module";
+import { AuthenticationComponentModule } from "./AuthenticationComponent/authenticationcomponent.module";
+import { FrontendComponentsModule } from "./FrontendComponents/frontendcomponents.module";
+import { FrontendSetupModule } from "./FrontendSetup/frontendsetup.module";
+import { ReactFrontendSetupModule } from "./ReactFrontendSetup/reactfrontendsetup.module";
+import { SetupReactProjectModule } from "./SetupReactProject/setupreactproject.module";
+import { TailwindIntegrationModule } from "./TailwindIntegration/tailwindintegration.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -24,6 +30,12 @@ import { AuthModule } from "./auth/auth.module";
     ParticipantModule,
     ChatRoomModule,
     UserModule,
+    AuthenticationComponentModule,
+    FrontendComponentsModule,
+    FrontendSetupModule,
+    ReactFrontendSetupModule,
+    SetupReactProjectModule,
+    TailwindIntegrationModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
